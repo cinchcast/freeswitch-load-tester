@@ -14,7 +14,6 @@ api = freeswitch.API();
 --establish the call
 local reply = api:executeString("originate {sip_user_agent=utility::summondialer,absolute_codec_string=PCMU,origination_caller_id_name=" .. sip_from .. ",origination_caller_id_number=" .. sip_from .. "}sofia/external/" .. sip_to .. " " .. conferenceToUse .. " xml default");
 local s = freeswitch.Session();
-s:consoleLog("info", app .. "Id: " .. id .. "\n");
 s:consoleLog("info", app .. "Establishing Call From: " .. sip_from .. ", To: " .. sip_to .. "\n");
 
 --move the actions to an array
