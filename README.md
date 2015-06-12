@@ -50,5 +50,7 @@ function run() {
 
 Then you could simply run 100 times by doing the following:
 
-```run 100 curl "http://freeswitch:works@127.0.0.1:8080/webapi/bgapi?lua%20summondialer.lua%20cinchcast-bot%2015555551212%4012.345.67.89%20sleep%3A5000%7Cdtmf%3A1234%22"``` 
+```shell
+run 100 curl "http://freeswitch:works@127.0.0.1:8080/webapi/bgapi?lua%20summondialer.lua%20cinchcast-bot%2015555551212%4012.345.67.89%20sleep%3A5000%7Cdtmf%3A1234%22"
+``` 
 
