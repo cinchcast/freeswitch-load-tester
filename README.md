@@ -1,6 +1,6 @@
 # freeswitch-load-tester
 
-Allows for load testing using FreeSWITCH.
+Allows us at [Cinchcast](http://cinchcast.com/?refer=freeswitch-load-tester-github) to use FreeSWITCH to do load testing of SIP applications.
 
 The way this was designed was to be able to pass custom actions like passing DTMF or playing some audio after some specified amount of time.
 
